@@ -463,11 +463,11 @@ class MtcnnDetector(object):
 
             t3 = time.time() - t
             t = time.time()
-
+            '''
             logger.info(f"Total time cost: {t1+t2+t3:.4f}s, "
                         f"PNet time cost: {t1:.4f}s, "
                         f"RNet time cost: {t2:.4f}s, "
                         f"ONet time cost: {t2:.4f}s. ")
-
+'''
 
         return boxes_align, landmark_align

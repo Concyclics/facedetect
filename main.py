@@ -9,3 +9,4 @@ if __name__=='__main__':
     
     os.chdir('./codes/')
     FaceDetect.faceDetect()#inputPath:str outputPath:str
+    FaceDetect.faceDetectVideo()

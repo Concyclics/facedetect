@@ -488,8 +488,5 @@ class MtcnnDetector(object):
 
             t3 = time.time() - t
             t = time.time()
-            print(
-                "time cost " + '{:.3f}'.format(t1 + t2 + t3) + '  pnet {:.3f}  rnet {:.3f}  onet {:.3f}'.format(t1, t2,
-                                                                                                                t3))
 
         return boxes_align, landmark_align
